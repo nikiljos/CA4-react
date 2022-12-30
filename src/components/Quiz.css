@@ -1,0 +1,24 @@
+.Quiz{
+    padding: 20px;
+    width: 800px;
+    max-width: 80vw;
+    margin: 30px 20px;
+    background-color: #F4EEFF;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.blue-btn{
+    width: fit-content;
+    margin:20px auto;
+    background-color: inherit;
+    border: 1px solid #424874;
+    color:#424874;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.blue-btn:hover{
+    background-color: #424874;
+    color: #ffffff;
+}

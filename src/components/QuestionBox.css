@@ -1,0 +1,36 @@
+.counter{
+    font-weight: 500;
+    padding: 10px;
+}
+.question{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 20px;
+    width: fit-content;
+}
+.opt{
+    background-color: #424874;
+    color: #ffffff;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 350px;
+    max-width: 80%;
+}
+
+.options{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.opt:hover{
+    background-color: #A6B1E1;
+    color: black;
+}

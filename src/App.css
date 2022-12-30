@@ -1,0 +1,16 @@
+.App{
+    --primary-color: #000000;
+    --bg-color: #ffffff;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    color: var(--primary-color);
+    background-color: var(--bg-color);
+}
+
+.btn{
+    cursor: pointer;
+}
