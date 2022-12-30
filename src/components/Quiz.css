@@ -14,8 +14,12 @@
     background-color: inherit;
     border: 1px solid #424874;
     color:#424874;
-    border-radius: 20px;
-    padding: 5px;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    min-width: 100px;
+    text-align: center;
 }
 
 .blue-btn:hover{

@@ -20,18 +20,20 @@ const Quiz = () => {
             isHighlight: false,
         }))
     );
-
-    console.log("eeee",responseData)
     return (
         <div className="Quiz">
             {!gameEnd ? (
                 <QuestionBox
-                    score={[score, updateScore]}
+                    updateScore={updateScore}
                     end={changeEndStatus}
                     response={[responseData, updateResponse]}
                 />
             ) : (
-                <Result score={[score, updateScore]} end={changeEndStatus} response={responseData}/>
+                <Result
+                    score={[score, updateScore]}
+                    end={changeEndStatus}
+                    response={responseData}
+                />
             )}
         </div>
     );

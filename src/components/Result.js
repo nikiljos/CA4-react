@@ -22,7 +22,6 @@ export default function Result(props) {
             highlight: [],
         };
         response.forEach((elt) => {
-            console.log("dsfdf", elt);
             if (elt.isCorrect) {
                 newDetail.correct.push(elt.id);
             } else if (elt.isWrong) {
@@ -33,8 +32,7 @@ export default function Result(props) {
             }
         });
         updateDetail(newDetail);
-    }, []);
-    console.log(detail);
+    }, [response]);
     let newGame = () => {
         updateScore((prev) => ({
             ...prev,
@@ -46,6 +44,7 @@ export default function Result(props) {
 
     return (
         <div className="Result">
+            <h2>Result</h2>
             <div className="status">
                 Score: {correct} of {total}
             </div>
@@ -57,7 +56,7 @@ export default function Result(props) {
                 <QList title="Highlighted" data={detail.highlight} />
             </div>
 
-            <button onClick={newGame} className="blue-btn">New Game</button>
+            <button onClick={newGame} className="blue-btn">Play Again</button>
         </div>
     );
 }

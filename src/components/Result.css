@@ -8,11 +8,6 @@
     margin: 10px;
 }
 
-.Result button{
-    padding: 10px;
-    border-radius: 10px;
-}
-
 .status{
     font-size: 1.2rem;
 }
@@ -33,9 +28,9 @@
 .QListBox{
     width: fit-content;
     min-width: 1rem;
-    padding: 2px;
+    padding: 0 2px;
     border: 2px solid black;
     display: flex;
     justify-content: center;
-    margin: 0 5px;
+    margin: 0 10px 0 1px;
 }
