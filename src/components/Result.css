@@ -27,10 +27,13 @@
 
 .QListBox{
     width: fit-content;
-    min-width: 1rem;
-    padding: 0 2px;
-    border: 2px solid black;
+    height: 18px;
+    width: 18px;
+    padding: 0;
+    border: 1.5px solid black;
+    margin: 0 10px 0 1px;
+    font-weight: 500;
     display: flex;
     justify-content: center;
-    margin: 0 10px 0 1px;
+    align-items: center;
 }
